@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">UTS_IF6_10120222_MARTINUSCELVYN</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="daily_activty">Daily Activty</string>
+    <string name="gallery">Gallery</string>
+    <string name="music_video"><![CDATA[Music & Video]]></string>
+    <string name="profile">Profile</string>
+    <string name="maps">Maps</string>
+    <string name="martinus_celvyn">Martinus Celvyn</string>
+    <string name="student_informatics_engineering_2020">Student : Informatics Engineering : 2020</string>
+    <string name="active">active</string>
+    <string name="find_me">Find Me</string>
+    <string name="location">Location</string>
+    <string name="kp_cilebak_rt_02_rw_02_ds_rancamanyar_nkab_bandung_jawa_barat">Kp.Cilebak RT.02 RW.02, Ds. Rancamanyar\nKab. Bandung, Jawa Barat</string>
+    <string name="titik">.</string>
+    <string name="hai_martinus">Hai.. Martinus</string>
+    <string name="my_favorit_music_now">My Favorit Music Now</string>
+    <string name="favorit_music">Favorit Music</string>
+    <string name="the_man_who_can_t_be_moved">The Man Who Can\'t Be Moved</string>
+    <string name="the_script">The Script</string>
+    <string name="marvin_gaye_feat_meghan_trainor">Marvin Gaye (feat. Meghan Trainor)</string>
+    <string name="charlie_puth_meghan_trainor">Charlie Puth, Meghan Trainor</string>
+    <string name="love_story">Love Story</string>
+    <string name="taylor_swift">Taylor Swift</string>
+    <string name="when_i_was_your_man">When I Was Your Man</string>
+    <string name="bruno_mars">Bruno Mars</string>
+    <string name="lucky">Lucky</string>
+    <string name="jason_mraz_colbie_caillat">Jason Mraz, Colbie Caillat</string>
+    <string name="usai">Usai</string>
+    <string name="tiara_andini">Tiara Andini</string>
+    <string name="summer_peradise">Summer Peradise</string>
+    <string name="simple_plan">Simple Plan</string>
+    <string name="deskripsi">Hai.. Saya Martinus Celvyn kalian bisa panggil\nsaya martinus. Saya lahir di Bandung dan\nsekarang sedang menempuh perkuliahan\ndi UNIKOM</string>
+    <string name="martinus_celvyn_21">Martinus Celvyn, 21</string>
+    <string name="indonesia_bandung">Indonesia, Bandung</string>
+    <string name="interest">Interest</string>
+    <string name="dokter">Dokter</string>
+    <string name="gaming">Gaming</string>
+    <string name="swiming">Swiming</string>
+    <string name="badminton">Badminton</string>
+    <string name="running">Running</string>
+</resources>
