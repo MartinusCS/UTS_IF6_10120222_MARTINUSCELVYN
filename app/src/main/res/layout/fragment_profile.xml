@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".ui.profile.ProfileFragment">
 
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -68,128 +69,106 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-        <androidx.constraintlayout.widget.ConstraintLayout
-
-            android:id="@+id/constraintLayout6"
-            android:layout_width="350dp"
-            android:layout_height="100dp"
-            android:layout_marginTop="30dp"
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_ig"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="40dp"
             android:background="@drawable/burem"
+            android:gravity="center"
+            android:onClick="openSocialMedia"
+            android:text="Instagram"
+            android:textColor="@color/white"
+            android:textSize="15sp"
             app:layout_constraintEnd_toEndOf="@+id/constraintLayout8"
+            app:layout_constraintHorizontal_bias="0.2"
             app:layout_constraintStart_toStartOf="@+id/constraintLayout8"
-            app:layout_constraintTop_toBottomOf="@+id/constraintLayout8">
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout8" />
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/btn_ig"
-                android:layout_width="100dp"
-                android:layout_height="50dp"
-                android:layout_marginStart="15dp"
-                android:background="@drawable/buttonwarna"
-                android:onClick="openSocialMedia"
-                android:text="Instagram"
-                android:textColor="@color/white"
-                android:textSize="15sp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/btn_wa"
-                android:layout_width="100dp"
-                android:layout_height="50dp"
-                android:layout_marginStart="15dp"
-                android:background="@drawable/buttonwarna"
-                android:onClick="openSocialMedia"
-                android:text="Whatsapp"
-                android:textColor="@color/white"
-                android:textSize="15sp"
-                app:layout_constraintBottom_toBottomOf="@+id/btn_ig"
-                app:layout_constraintStart_toEndOf="@+id/btn_ig"
-                app:layout_constraintTop_toTopOf="@+id/btn_ig" />
-
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/btn_email"
-                android:layout_width="100dp"
-                android:layout_height="50dp"
-                android:layout_marginStart="15dp"
-                android:background="@drawable/buttonwarna"
-                android:onClick="openSocialMedia"
-                android:text="Email"
-                android:textColor="@color/white"
-                android:textSize="15sp"
-                app:layout_constraintBottom_toBottomOf="@+id/btn_wa"
-                app:layout_constraintStart_toEndOf="@+id/btn_wa"
-                app:layout_constraintTop_toTopOf="@+id/btn_wa" />
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
-
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/constraintLayout9"
-            android:layout_width="350dp"
-            android:layout_height="100dp"
-            android:layout_marginTop="30dp"
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_wa"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
             android:background="@drawable/burem"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.508"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/constraintLayout6">
+            android:onClick="openSocialMedia"
+            android:text="Whatsapp"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="@+id/btn_ig"
+            app:layout_constraintStart_toStartOf="@+id/btn_ig"
+            app:layout_constraintTop_toBottomOf="@+id/btn_ig" />
 
-            <ImageView
-                android:id="@+id/imageView35"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_marginStart="50dp"
-                android:src="@drawable/instagram"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_email"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/burem"
+            android:onClick="openSocialMedia"
+            android:text="Email"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="@+id/btn_wa"
+            app:layout_constraintStart_toStartOf="@+id/btn_wa"
+            app:layout_constraintTop_toBottomOf="@+id/btn_wa" />
 
-            <ImageView
-                android:id="@+id/imageView36"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_marginStart="50dp"
-                android:src="@drawable/gmail"
-                app:layout_constraintBottom_toBottomOf="@+id/imageView35"
-                app:layout_constraintStart_toEndOf="@+id/imageView35"
-                app:layout_constraintTop_toTopOf="@+id/imageView35" />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:src="@drawable/whatsapp"
+            app:layout_constraintBottom_toBottomOf="@+id/btn_wa"
+            app:layout_constraintStart_toEndOf="@+id/btn_wa"
+            app:layout_constraintTop_toTopOf="@+id/btn_wa" />
 
-            <ImageView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_marginStart="50dp"
-                android:src="@drawable/whatsapp"
-                app:layout_constraintBottom_toBottomOf="@+id/imageView36"
-                app:layout_constraintStart_toEndOf="@+id/imageView36"
-                app:layout_constraintTop_toTopOf="@+id/imageView36" />
-        </androidx.constraintlayout.widget.ConstraintLayout>
+        <ImageView
+            android:id="@+id/imageView36"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:src="@drawable/gmail"
+            app:layout_constraintBottom_toBottomOf="@+id/btn_email"
+            app:layout_constraintStart_toEndOf="@+id/btn_email"
+            app:layout_constraintTop_toTopOf="@+id/btn_email" />
+
+        <ImageView
+            android:id="@+id/imageView35"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:src="@drawable/instagram"
+            app:layout_constraintBottom_toBottomOf="@+id/btn_ig"
+            app:layout_constraintStart_toEndOf="@+id/btn_ig"
+            app:layout_constraintTop_toTopOf="@+id/btn_ig" />
 
         <TextView
+            android:id="@+id/textView44"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
             android:text="@string/find_me"
             android:textColor="@color/white"
             android:textSize="20sp"
-            app:layout_constraintBottom_toTopOf="@+id/constraintLayout10"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/constraintLayout9" />
+            app:layout_constraintTop_toBottomOf="@+id/btn_email" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/constraintLayout10"
             android:layout_width="350dp"
             android:layout_height="100dp"
-            android:layout_marginTop="80dp"
+            android:layout_marginTop="15dp"
             android:background="@drawable/burem"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/constraintLayout9">
+            app:layout_constraintTop_toBottomOf="@+id/textView44">
 
             <ImageView
                 android:id="@+id/imageView37"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_marginStart="30dp"
+                android:layout_marginStart="20dp"
                 android:src="@drawable/map"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -208,15 +187,16 @@
                 app:layout_constraintHorizontal_bias="0.1"
                 app:layout_constraintStart_toEndOf="@+id/imageView37"
                 app:layout_constraintTop_toTopOf="@+id/imageView37"
-                app:layout_constraintVertical_bias="0.0" />
+                app:layout_constraintVertical_bias="0.22000003" />
 
             <TextView
+                android:id="@+id/text_maps"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
+                android:layout_marginTop="6dp"
                 android:text="@string/kp_cilebak_rt_02_rw_02_ds_rancamanyar_nkab_bandung_jawa_barat"
                 android:textColor="@color/white"
-                android:textSize="12sp"
+                android:textSize="13sp"
                 app:layout_constraintEnd_toEndOf="@+id/textView43"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="@+id/textView43"
