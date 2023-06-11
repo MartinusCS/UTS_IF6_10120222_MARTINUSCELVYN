@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.uts_if6_10120222_martinuscelvyn.MainActivity
 import com.example.uts_if6_10120222_martinuscelvyn.R
+import com.example.uts_if6_10120222_martinuscelvyn.ui.walktrought.walktroughActivity
 
 class SplashActivity : AppCompatActivity() {
 
@@ -19,7 +20,7 @@ class SplashActivity : AppCompatActivity() {
 
         // Handler untuk menunda pemindahan ke aktivitas berikutnya
         Handler().postDelayed({
-            val intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this, walktroughActivity::class.java)
             startActivity(intent)
             finish() // Menutup splash screen agar tidak bisa kembali ke sana dengan tombol "kembali"
         }, splashScreenTimeout)

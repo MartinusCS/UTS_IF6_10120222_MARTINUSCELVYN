@@ -17,4 +17,10 @@
     <color name="abuburem">#4DA9A9A9</color>
 
     <color name="hijau">#2e7d32</color>
+
+    <color name="walk1">#696969</color>
+    <color name="walk2">#778899</color>
+    <color name="walk3">#708090</color>
+    <color name="walk4">#878581</color>
+
 </resources>

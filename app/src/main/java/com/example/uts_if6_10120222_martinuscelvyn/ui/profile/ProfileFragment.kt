@@ -27,7 +27,9 @@ class ProfileFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        val rootView = inflater.inflate(R.layout.fragment_profile, container, false)
+
+
+        val rootView: View = inflater.inflate(R.layout.fragment_profile, container, false)
 
         val textViewMapsLink = rootView.findViewById<TextView>(R.id.text_maps)
 
