@@ -9,8 +9,10 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 import android.widget.TextView
 import com.example.uts_if6_10120222_martinuscelvyn.R
+import com.example.uts_if6_10120222_martinuscelvyn.ui.dialog.CustomDialogFragment
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -56,7 +58,10 @@ class ProfileFragment : Fragment() {
         val btn_ig = view.findViewById<View>(R.id.btn_ig)
         val btn_wa = view.findViewById<View>(R.id.btn_wa)
         val btn_email = view.findViewById<View>(R.id.btn_email)
-
+        val showDialogButton = view.findViewById<Button>(R.id.showDialogButton)
+        showDialogButton.setOnClickListener {
+            showCustomDialog()
+        }
 
         btn_ig.setOnClickListener {
             openSocialMedia("https://instagram.com/martinuscelvyn_s?igshid=MzNlNGNkZWQ4Mg==")
@@ -67,6 +72,11 @@ class ProfileFragment : Fragment() {
         btn_email.setOnClickListener {
             openEmail()
         }
+    }
+
+    private fun showCustomDialog() {
+        val dialogFragment = CustomDialogFragment()
+        dialogFragment.show(parentFragmentManager, "CustomDialogFragment")
     }
 
     private fun openSocialMedia(url: String) {
@@ -83,7 +93,7 @@ class ProfileFragment : Fragment() {
         val email = "martinus.10120222@mahasiswa.unikom.ac.id" // Alamat email yang akan dituju
         val subject = "Subject email" // Subjek email
         val uri = Uri.parse("mailto:$email?subject=${Uri.encode(subject)}")
-        val intent = Intent(Intent.ACTION_SENDTO, uri)
+        val intent = Intent(Intent.ACTION_SENDTO, uri   )
         startActivity(intent)
 
 
