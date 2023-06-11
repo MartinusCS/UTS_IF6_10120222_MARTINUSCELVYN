@@ -23,7 +23,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="ASEKKKKKK"
+        android:gravity="center"
+        android:text="This app caveat can make you feel\nlike using it for a long time and\nI was pretty tired working on it"
         android:textColor="@color/black"
         android:textStyle="bold"
         android:textSize="15sp"
@@ -31,7 +32,7 @@
         app:layout_constraintStart_toStartOf="@+id/dialogTitle"
         app:layout_constraintTop_toBottomOf="@+id/dialogTitle" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/dialogButton"
         android:layout_width="100dp"
         android:layout_height="50dp"

@@ -16,7 +16,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
-            android:text="Hai.. Martinus"
+            android:text="@string/hai_martinus"
             android:textColor="@color/white"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.45"
@@ -37,7 +37,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
-            android:text="Discover"
+            android:text="@string/discover"
             android:textColor="@color/white"
             android:textSize="25sp"
             android:textStyle="bold"
@@ -52,7 +52,8 @@
             android:layout_width="wrap_content"
             android:layout_height="130dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView8"
             app:layout_constraintTop_toBottomOf="@+id/textView8">
 
             <LinearLayout
@@ -66,90 +67,111 @@
                     android:id="@+id/circleImageView3"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:layout_marginStart="15dp"
-                    android:src="@drawable/aa"
-                    app:layout_constraintBottom_toBottomOf="@+id/circleImageView2"
-                    app:layout_constraintStart_toEndOf="@+id/circleImageView2"
-                    app:layout_constraintTop_toTopOf="@+id/circleImageView2" />
+                    android:layout_marginStart="00dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/aa" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/circleImageView77"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/montain" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/circleImageView88"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/farm" />
 
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/circleImageView"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:src="@drawable/aaaaaa"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.05"
-                    app:layout_constraintStart_toStartOf="parent"
-                    tools:layout_editor_absoluteY="114dp" />
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/aaaaaa" />
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/circleImageView1"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:layout_marginStart="15dp"
-                    android:src="@drawable/bb"
-                    app:layout_constraintBottom_toBottomOf="@+id/circleImageView"
-                    app:layout_constraintStart_toEndOf="@+id/circleImageView"
-                    app:layout_constraintTop_toTopOf="@+id/circleImageView" />
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/bb" />
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/circleImageView2"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:layout_marginStart="15dp"
-                    android:src="@drawable/a"
-                    app:layout_constraintBottom_toBottomOf="@+id/circleImageView1"
-                    app:layout_constraintStart_toEndOf="@+id/circleImageView1"
-                    app:layout_constraintTop_toTopOf="@+id/circleImageView1" />
-
-                <TextView
-                    android:id="@+id/textView9"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="3dp"
-                    android:text="Nature"
-                    android:textColor="@color/white"
-                    android:textSize="15sp"
-                    app:layout_constraintEnd_toEndOf="@+id/circleImageView"
-                    app:layout_constraintStart_toStartOf="@+id/circleImageView"
-                    app:layout_constraintTop_toBottomOf="@+id/circleImageView" />
-
-                <TextView
-                    android:id="@+id/textView11"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="3dp"
-                    android:text="City"
-                    android:textColor="@color/white"
-                    android:textSize="15sp"
-                    app:layout_constraintEnd_toEndOf="@+id/circleImageView1"
-                    app:layout_constraintStart_toStartOf="@+id/circleImageView1"
-                    app:layout_constraintTop_toBottomOf="@+id/circleImageView1" />
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/a" />
 
                 <TextView
                     android:id="@+id/textView12"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="3dp"
+                    android:layout_marginStart="-553dp"
+                    android:layout_marginTop="100dp"
                     android:text="River"
                     android:textColor="@color/white"
-                    android:textSize="15sp"
-                    app:layout_constraintEnd_toEndOf="@+id/circleImageView3"
-                    app:layout_constraintStart_toStartOf="@+id/circleImageView3"
-                    app:layout_constraintTop_toBottomOf="@+id/circleImageView3" />
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView75"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="65dp"
+                    android:layout_marginTop="100dp"
+                    android:text="Montain"
+                    android:textColor="@color/white"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView76"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="65dp"
+                    android:layout_marginTop="100dp"
+                    android:text="Farm"
+                    android:textColor="@color/white"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="67dp"
+                    android:layout_marginTop="100dp"
+                    android:text="Nature"
+                    android:textColor="@color/white"
+                    android:textSize="15sp" />
+
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="70dp"
+                    android:layout_marginTop="100dp"
+                    android:text="City"
+                    android:textColor="@color/white"
+                    android:textSize="15sp" />
 
                 <TextView
                     android:id="@+id/textView10"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="3dp"
+                    android:layout_marginStart="75dp"
+                    android:layout_marginTop="100dp"
                     android:text="Beach"
                     android:textColor="@color/white"
-                    android:textSize="15sp"
-                    app:layout_constraintEnd_toEndOf="@+id/circleImageView2"
-                    app:layout_constraintStart_toStartOf="@+id/circleImageView2"
-                    app:layout_constraintTop_toBottomOf="@+id/circleImageView2" />
+                    android:textSize="15sp" />
 
             </LinearLayout>
         </HorizontalScrollView>
