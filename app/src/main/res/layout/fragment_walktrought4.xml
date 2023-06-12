@@ -36,7 +36,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:gravity="center"
-        android:text="@string/selanjutnya_app_ini_memiliki_menu_gallery_yang_dimana_kamu_dapat_menambahkan_bahkan_mengingat_momen_monen_berharga_anda_yang_dapat_anda_pilah_sesuai_dengan_judul_gWambar_tersebut"
+        android:text="@string/dan_menu_selanjutnya_adalah_music_yang_dimana_anda_dapat_menambahkan_update_musik_kesukaan_kalian_dan_dapat_menjalankan_musik_musik_yang_sedang_populer"
         android:textColor="@color/white"
         android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="parent"
