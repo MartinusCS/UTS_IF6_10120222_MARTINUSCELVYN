@@ -118,7 +118,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="-553dp"
                     android:layout_marginTop="100dp"
-                    android:text="River"
+                    android:text="@string/river"
                     android:textColor="@color/white"
                     android:textSize="15sp" />
 
@@ -128,7 +128,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="65dp"
                     android:layout_marginTop="100dp"
-                    android:text="Montain"
+                    android:text="@string/montain"
                     android:textColor="@color/white"
                     android:textSize="15sp" />
 
@@ -148,7 +148,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="67dp"
                     android:layout_marginTop="100dp"
-                    android:text="Nature"
+                    android:text="@string/nature"
                     android:textColor="@color/white"
                     android:textSize="15sp" />
 
@@ -159,7 +159,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="70dp"
                     android:layout_marginTop="100dp"
-                    android:text="City"
+                    android:text="@string/city"
                     android:textColor="@color/white"
                     android:textSize="15sp" />
 
@@ -169,7 +169,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="75dp"
                     android:layout_marginTop="100dp"
-                    android:text="Beach"
+                    android:text="@string/beach"
                     android:textColor="@color/white"
                     android:textSize="15sp" />
 
